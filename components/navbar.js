@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Nunito } from "next/font/google";
 import Link from "next/link";
-import { extractMoodFromURL } from "./moodUtils";
+import { extractMoodFromURL } from "@/components/moodutils";
 
 const nunito = Nunito({
   subsets: ["latin"],

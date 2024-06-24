@@ -1,7 +1,7 @@
 // SongList.js
 import { useState, useEffect } from "react";
 import Footer from "./footer";
-import { extractMoodFromURL, fetchMoodDetails } from "./moodUtils"; // Adjust path as necessary
+import { extractMoodFromURL, fetchMoodDetails } from "@/components/moodutils"; // Adjust path as necessary
 
 export default function SongList() {
   const [mood, setMood] = useState("");
