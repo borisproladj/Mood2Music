@@ -20,7 +20,6 @@ export const extractMoodFromURL = () => {
     "lonely": "😢 Lonely",
     "tense": "😬 Tense",
     "thoughtful": "🤓 Thoughtful",
-    "thrill-seeking": "🤪 Thrill-seeking",
     "playful": "🙃 Playful",
   };
   

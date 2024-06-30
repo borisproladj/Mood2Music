@@ -31,7 +31,6 @@ export default function Moods() {
     "😢 Lonely",
     "😬 Tense",
     "🤓 Thoughtful",
-    "🤪 Thrill-seeking",
     "🙃 Playful",
   ];
 
