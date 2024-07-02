@@ -1,6 +1,10 @@
 // pages/api/chat.js
 import OpenAI from "openai";
 
+export const config = {
+  maxDuration: 20, // Maximum duration in seconds
+};
+
 export default async function handler(req, res) {
   if (req.method === "POST") {
     // Extract the mood from the request body
